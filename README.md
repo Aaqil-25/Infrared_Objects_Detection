@@ -7,13 +7,20 @@ The model can be on testedÂ  20% of the day-time image dataset(1124 images) andÂ
 
 The model trained to detect classes as,
 
-"category_id": 0 for  "people",
-"category_id": 1 for  "buggy",
+"category_id": 0 for  "people"
+
+"category_id": 1 for  "buggy"
+
 "category_id": 2 for  "motorcycle"
+
 "category_id": 3 for  "car"
+
 "category_id": 4 for  "ATV"
+
 "category_id": 5 for  "bus"
+
 "category_id": 6 for  "truck"
+
 "category_id": 7 for  "van"
 
 The included files are:
