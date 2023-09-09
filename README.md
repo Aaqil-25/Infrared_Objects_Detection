@@ -2,9 +2,8 @@
 YOLOv4-based  Object Detection Model.
 
 The model was trained with 5083 images in total.
-On that 4499 images from day-time  IR images and 584 images from knight-time IR images.
-The model tested on 20% of the day-time image dataset(1124 images). From the Knight-time dataset, 8000 images are to be available for testing.
-
+On that 4499 images from day-time  IR images and 584 images from night-time IR images.
+The model can be on tested  20% of the day-time image dataset(1124 images) and  8000 images night-time IR data set.
 
 The model trained to detect classes as,
 
@@ -20,50 +19,30 @@ The model trained to detect classes as,
 The included files are:
 
 1. Weights
-2. Testing day ir  images
-3. Testing knight ir  images
-4. python scripts
- 	(
-	detector_output.py,
-	detector_output_1.py)
+   	The file contains the model.
+3. Testing day IR  images
+   	The images used to test the model. 
+5. Testing night IR  images
+   	The images used to test the model. 
+7. Python scripts
+      (i)  detector_output.py
+   		This file is used to output the detected objects in a JSON file format for day IR image
+      (ii) detector_output_1.py
+   		This file is used to output the detected objects in a JSON file format for night IR image
 
 
-1. weights 
+The model was tested on a Pycharm IDE.
 
-The file containe the model.
+The packages used to run the Python script.
 
-2.Testing images
+(1) opencv-python 
+	https://github.com/opencv/opencv-python
 
-The images used to test the model. 
+(2) NumPy
 
-3. Testing knight ir images
+(3) glob
 
-The images used to test the model.
+(4) random
 
-4.python script to test the model.
+(5) JSON
 
-detector_output.py,
-
-this file used to output the detected objects in a json file format for day ir image
-
-detector_output_1.py,
-
-this file used to output the detected objects in a json file format for knight ir image
-
-
-The model tested on a pycharm IDE.
-
-The packages used to run the python script.
-
-opencv-python 
-https://github.com/opencv/opencv-python
-
-numpy
-
-glob
-
-random
-
-json
-
-re
