@@ -26,16 +26,25 @@ The model trained to detect classes as,
 The included files are:
 
 1. Weights
-   	The file contains the model.
+   
+   The file contains the model.
+   
 3. Testing day IR  images
-   	The images used to test the model. 
+   
+   The images used to test the model.
+    
 5. Testing night IR  images
-   	The images used to test the model. 
+   
+   The images used to test the model. 
 7. Python scripts
+   
       (i)  detector_output.py
-   		This file is used to output the detected objects in a JSON file format for day IR image
+   
+   	This file is used to output the detected objects in a JSON file format for day IR image
+   
       (ii) detector_output_1.py
-   		This file is used to output the detected objects in a JSON file format for night IR image
+   
+   	This file is used to output the detected objects in a JSON file format for night IR image
 
 
 The model was tested on a Pycharm IDE.
@@ -46,6 +55,7 @@ The packages used to run the Python script.
 	https://github.com/opencv/opencv-python
 
 (2) NumPy
+	https://github.com/numpy/numpy
 
 (3) glob
 
