@@ -1,0 +1,5 @@
+opencv-python
+NumPy
+glob
+random
+JSON
